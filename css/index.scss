@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+//****** STYLE GUIDE ******//
+
+//Color palette that I will be using for my website, not all colors will be used
+
+:root{
+    --green: #04a777;
+    --darkpurple: #291720;
+    --byzantium: #820263;
+    --rose: #d90368;
+    --orange: #f75c03;
+}
+
+//////Global font styles//////
+
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Roboto-regular.ttf);
+}
+
+@font-face{
+    font-family: 'BebasNeue-Regular', sans-serif;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+// font for the headers
+
+h1{
+    font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+h2{
+    font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+h3{
+    font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+// font for body text
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+

@@ -4,4 +4,38 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+:root {
+  --green: #04a777;
+  --darkpurple: #291720;
+  --byzantium: #820263;
+  --rose: #d90368;
+  --orange: #f75c03;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(fonts/Roboto-regular.ttf);
+}
+
+@font-face {
+  font-family: 'BebasNeue-Regular', sans-serif;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+h1 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+h2 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+h3 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
 /*# sourceMappingURL=index.css.map */
