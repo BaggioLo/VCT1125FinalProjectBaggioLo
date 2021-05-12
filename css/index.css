@@ -251,6 +251,15 @@ and a box shadow appears as well
   color: var(--orange);
 }
 
+.features-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .features-button button {
   padding: 9px 25px;
   background-color: rgba(255, 255, 255, 0);

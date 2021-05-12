@@ -157,7 +157,7 @@ header{
     }
 }
 
-//***** Features Collection  *****//
+//***** Features Collection 1 & 2  *****//
 /* Extra notes:
 So basically, this page is a features shoe collection
 set up, there are going to be 2 rows of shoes to display product
@@ -220,8 +220,8 @@ and a box shadow appears as well
 }
 
 .features-button{
-    //display: flex;
-    //justify-content: center;
+    display: flex;
+    justify-content: center;
     button{
         padding: 9px 25px;
         background-color: rgba(255, 255, 255, 0);
