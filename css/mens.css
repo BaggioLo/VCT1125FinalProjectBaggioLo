@@ -151,4 +151,189 @@ than using flex box when I want them in a very specific area
   padding-bottom: 30px;
   font-size: 48px;
 }
+
+/* Extra notes:
+This page is another features shoe collection
+set up, there are going to be 2 rows of shoes to display product
+and it has the info underneath each shoe.
+I thought it would be cool to give some interactivity
+with a hover effect over them, so the shoes scale up
+and a box shadow appears as well. They are also positioned next to each other
+*/
+.features {
+  width: 100%;
+  height: 90vh;
+  margin-top: 15%;
+}
+
+.features .features-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 2.5% 2.5%;
+  font-size: 36px;
+  opacity: 0.5;
+}
+
+.features .features-title .title-edit {
+  padding-right: 2.5%;
+}
+
+.features-collection {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.features-collection .features-card {
+  width: 21.5%;
+}
+
+.features-collection .features-card .card1 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card2 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card3 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card4 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card5 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card6 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card7 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card8 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card9 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/mens1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card10 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/mens2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .features-card-image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 40px -10px #f75c03;
+          box-shadow: 0 0 40px -10px #f75c03;
+}
+
+.features-collection .features-card .features-card-info {
+  padding-top: 10%;
+}
+
+.features-collection .features-card .features-card-info h3 {
+  color: var(--orange);
+  font-size: 28px;
+}
+
+.features-collection .features-card .features-card-info p {
+  font-size: 20px;
+}
+
+/*
+Extra Notes: Not changing much here, just removing margin from the top;
+*/
+#features2 {
+  margin-top: 0;
+}
+
+/*
+Adding in a section where the shoes will be dropping in,
+I thought it was a cool feature to animate so it makes the shoes
+seem suspensful almost like the "new shoe drop"
+*/
+.features {
+  position: relative;
+  -webkit-animation-name: shoedrop;
+          animation-name: shoedrop;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes shoedrop {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+@keyframes shoedrop {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50px;
+  }
+}
 /*# sourceMappingURL=mens.css.map */

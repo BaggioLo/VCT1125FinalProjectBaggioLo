@@ -185,6 +185,7 @@ and a box shadow appears as well
 .features {
   width: 100%;
   height: 90vh;
+  margin-top: 15%;
 }
 
 .features-collection {
@@ -206,7 +207,7 @@ and a box shadow appears as well
 
 .features-collection .features-card .card1 {
   height: 60%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/shoe1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -214,7 +215,7 @@ and a box shadow appears as well
 
 .features-collection .features-card .card2 {
   height: 60%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/shoe2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,7 +223,7 @@ and a box shadow appears as well
 
 .features-collection .features-card .card3 {
   height: 60%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/shoe3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,7 +231,7 @@ and a box shadow appears as well
 
 .features-collection .features-card .card4 {
   height: 60%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/shoe4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,32 +239,8 @@ and a box shadow appears as well
 
 .features-collection .features-card .card5 {
   height: 60%;
-  width: 100%;
+  width: 90%;
   background-image: url(../img/shoe5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.features-collection .features-card .card6 {
-  height: 60%;
-  width: 100%;
-  background-image: url(../img/shoe6.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.features-collection .features-card .card7 {
-  height: 60%;
-  width: 100%;
-  background-image: url(../img/shoe7.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.features-collection .features-card .card8 {
-  height: 60%;
-  width: 100%;
-  background-image: url(../img/shoe8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
