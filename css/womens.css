@@ -114,31 +114,33 @@ Banner section for women's page
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 10%;
+  margin-bottom: 0;
 }
 
-.banner .item-feature-image {
+.banner .banner-feature-image {
   width: 40%;
-  height: 60%;
-  background-image: url(../img/mens5.jpg);
+  height: 70%;
+  background-image: url(../img/womensbanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 15%;
 }
 
-.banner .item-feature-info {
+.banner .banner-feature-info {
   margin-left: 5%;
-  margin-top: 15%;
+  margin-top: 12.5%;
 }
 
-.banner .item-feature-info h3 {
+.banner .banner-feature-info h3 {
   font-size: 36px;
 }
 
-.banner .item-feature-info p {
+.banner .banner-feature-info p {
   font-size: 24px;
 }
 
-.banner .item-feature-info button {
+.banner .banner-feature-info button {
   padding: 9px 25px;
   background-color: rgba(255, 255, 255, 0);
   border: solid 5px var(--green);
@@ -148,11 +150,40 @@ Banner section for women's page
   margin-top: 5%;
 }
 
-.banner .item-feature-info button:hover {
+.banner .banner-feature-info button:hover {
   color: var(--green);
   background-color: var(--green);
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
+}
+
+.about {
+  width: 100%;
+  height: 60vh;
+}
+
+.about .about-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 110px 100px;
+}
+
+.about .about-info h3 {
+  font-size: 48px;
+  margin-top: 8%;
+}
+
+.about .about-info p {
+  font-size: 24px;
+  padding-top: 1.5%;
 }
 
 /* 
