@@ -105,6 +105,68 @@ header{
 .contact-form{
     height: 90vh;
     width: 100%;
+    .audio-title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 35%;
+        padding-top: 15%;
+        .audio-player{
+            margin-left: 3%;
+        }
+        h3{
+            font-size: 40px;
+        }
+    }
+}
+
+.wrapper{
+    width: 800px;
+    margin: 5% auto;
+    .form-area{
+        display: flex;
+        border-radius: 25px;
+        padding: 1.9em;
+        .msg-area{
+            display: flex;
+            flex-direction: column;
+            order: 2;
+            height: 45%;
+            .text-area{
+                flex: 1;
+                min-width: 20%;
+                height: 45%;
+                background: transparent;
+                color: #fff;
+                padding: 15px;
+            }
+        }
+        .details-area{
+            flex: 1;
+            order: 1;
+            margin-right: 5%;
+            input{
+                width: 100%;
+                background: transparent;
+                color: #fff;
+                border-radius: 40px;
+            }
+            button{
+                margin-top: 5%;
+                padding: 9px 25px;
+                background-color: rgba(255, 255, 255, 0);
+                border: solid 5px var(--green);
+                border-radius: 50px;
+                color: var(--green);
+                text-transform: uppercase;
+            }
+            button:hover{
+                color: var(--green);
+                background-color: var(--green);
+                transition: all 0.8s ease 0s;
+            }
+        }
+    }
 }
 
 //***** Footer Styling *****//

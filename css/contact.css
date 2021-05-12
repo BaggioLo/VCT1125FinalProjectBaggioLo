@@ -110,6 +110,101 @@ header button:hover {
   width: 100%;
 }
 
+.contact-form .audio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 35%;
+  padding-top: 15%;
+}
+
+.contact-form .audio-title .audio-player {
+  margin-left: 3%;
+}
+
+.contact-form .audio-title h3 {
+  font-size: 40px;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 5% auto;
+}
+
+.wrapper .form-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  padding: 1.9em;
+}
+
+.wrapper .form-area .msg-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  height: 45%;
+}
+
+.wrapper .form-area .msg-area .text-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 20%;
+  height: 45%;
+  background: transparent;
+  color: #fff;
+  padding: 15px;
+}
+
+.wrapper .form-area .details-area {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-right: 5%;
+}
+
+.wrapper .form-area .details-area input {
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.wrapper .form-area .details-area button {
+  margin-top: 5%;
+  padding: 9px 25px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 5px var(--green);
+  border-radius: 50px;
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.wrapper .form-area .details-area button:hover {
+  color: var(--green);
+  background-color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
 /* 
 Not much to talk about for the footer,
 used css flexbox to space out the 4 nav links between each other
