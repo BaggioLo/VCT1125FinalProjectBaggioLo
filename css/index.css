@@ -271,8 +271,8 @@ and a box shadow appears as well
 .features-collection .features-card .features-card-image:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.75);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 40px -10px #f75c03;
+          box-shadow: 0 0 40px -10px #f75c03;
 }
 
 .features-collection .features-card .features-card-info {
