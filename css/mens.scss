@@ -172,70 +172,70 @@ and a box shadow appears as well. They are also positioned next to each other
             width:100%;
             background-image: url(../img/shoe1.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card2{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe2.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card3{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe3.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card4{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe4.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card5{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe5.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card6{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe6.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card7{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe7.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card8{
             height: 60%;
             width:100%;
             background-image: url(../img/shoe8.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card9{
             height: 60%;
             width:100%;
             background-image: url(../img/mens1.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .card10{
             height: 60%;
             width:100%;
             background-image: url(../img/mens2.jpg);
             background-size: cover;
-            background-repeat: no-repeat
+            background-repeat: no-repeat;
         }
         .features-card-image:hover{
             transform: scale(1.05);
@@ -292,7 +292,11 @@ seem suspensful almost like the "new shoe drop"
 This will be an item feature section
 */
 
-
+.item-feature-image{
+    background-image: url(../img/mens2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 

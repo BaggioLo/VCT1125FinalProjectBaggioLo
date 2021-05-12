@@ -344,4 +344,9 @@ seem suspensful almost like the "new shoe drop"
 /*
 This will be an item feature section
 */
+.item-feature-image {
+  background-image: url(../img/mens2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=mens.css.map */
