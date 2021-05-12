@@ -342,11 +342,55 @@ seem suspensful almost like the "new shoe drop"
 }
 
 /*
-This will be an item feature section
+Extra Notes: This will be an item feature section
+This was inspired by one of the websites from the 
+inspiration part of the project to use feature pieces like this
+and a shop now button after a description
 */
-.item-feature-image {
-  background-image: url(../img/mens2.jpg);
+.item-feature {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-feature .item-feature-image {
+  width: 40%;
+  height: 60%;
+  background-image: url(../img/mens5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 15%;
+}
+
+.item-feature .item-feature-info {
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.item-feature .item-feature-info h3 {
+  font-size: 36px;
+}
+
+.item-feature .item-feature-info p {
+  font-size: 24px;
+}
+
+.item-feature .item-feature-info button {
+  padding: 9px 25px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 5px var(--green);
+  border-radius: 50px;
+  color: var(--green);
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+
+.item-feature .item-feature-info button:hover {
+  color: var(--green);
+  background-color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 /*# sourceMappingURL=mens.css.map */

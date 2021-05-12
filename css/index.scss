@@ -214,7 +214,27 @@ and a box shadow appears as well
             background-size: cover;
             background-repeat: no-repeat;
         }
-        
+        .card6{
+            height: 60%;
+            width:90%;
+            background-image: url(../img/shoe6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .card7{
+            height: 60%;
+            width:90%;
+            background-image: url(../img/shoe7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .card8{
+            height: 60%;
+            width:90%;
+            background-image: url(../img/shoe8.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
         .features-card-image:hover{
             transform: scale(1.05);
             box-shadow: 0 0 40px -10px rgba(247, 92, 3, 1);

@@ -245,6 +245,30 @@ and a box shadow appears as well
   background-repeat: no-repeat;
 }
 
+.features-collection .features-card .card6 {
+  height: 60%;
+  width: 90%;
+  background-image: url(../img/shoe6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card7 {
+  height: 60%;
+  width: 90%;
+  background-image: url(../img/shoe7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card8 {
+  height: 60%;
+  width: 90%;
+  background-image: url(../img/shoe8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .features-collection .features-card .features-card-image:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
