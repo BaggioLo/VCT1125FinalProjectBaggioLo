@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --green: #04a777;
+  --darkpurple: #291720;
+  --byzantium: #820263;
+  --rose: #d90368;
+  --orange: #f75c03;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(fonts/Roboto-regular.ttf);
+}
+
+@font-face {
+  font-family: 'BebasNeue-Regular', sans-serif;
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+h1 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-family: 'BebasNeue-Regular', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+/* This is the styling for the nav bar,
+I have the logo on the far left called "UpworkShoes"
+the menu is in the center and there is a shop button to the right
+the menu items have a green hover to them */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+header .logo {
+  color: white;
+}
+
+header .nav-link {
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+header .nav-link li {
+  padding: 30px 20px;
+}
+
+header .nav-link a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+header .nav-link a:hover {
+  color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+header button {
+  padding: 9px 25px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 5px var(--green);
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+
+header button:hover {
+  color: var(--green);
+  background-color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+/*# sourceMappingURL=mens.css.map */
