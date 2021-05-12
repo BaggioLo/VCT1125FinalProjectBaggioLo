@@ -236,6 +236,38 @@ and a box shadow appears as well
   background-repeat: no-repeat;
 }
 
+.features-collection .features-card .card5 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card6 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card7 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card8 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/shoe8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .features-collection .features-card .features-card-image:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -247,8 +279,13 @@ and a box shadow appears as well
   padding-top: 10%;
 }
 
-.features-collection .features-card .features-card-info .price {
+.features-collection .features-card .features-card-info h3 {
   color: var(--orange);
+  font-size: 28px;
+}
+
+.features-collection .features-card .features-card-info p {
+  font-size: 20px;
 }
 
 .features-button {
@@ -277,7 +314,7 @@ and a box shadow appears as well
 }
 
 /* Extra notes:
-Here is the collectioins row 2, I will be adding the
+The collections row 2, I will be adding the
 same effects here as row 1 to create a unified
 home page with the same styling of elements.
 */

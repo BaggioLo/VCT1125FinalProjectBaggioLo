@@ -206,14 +206,46 @@ and a box shadow appears as well
             background-size: cover;
             background-repeat: no-repeat
         }
+        .card5{
+            height: 60%;
+            width:100%;
+            background-image: url(../img/shoe5.jpg);
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+        .card6{
+            height: 60%;
+            width:100%;
+            background-image: url(../img/shoe6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+        .card7{
+            height: 60%;
+            width:100%;
+            background-image: url(../img/shoe7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+        .card8{
+            height: 60%;
+            width:100%;
+            background-image: url(../img/shoe8.jpg);
+            background-size: cover;
+            background-repeat: no-repeat
+        }
         .features-card-image:hover{
             transform: scale(1.05);
             box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.75);
         }
         .features-card-info{
             padding-top: 10%;
-            .price{
+            h3{
                 color: var(--orange);
+                font-size: 28px;
+            }
+            p{
+                font-size: 20px;
             }
         }
     }
@@ -238,10 +270,14 @@ and a box shadow appears as well
 }
 //***** Features Collection #2  *****//
 /* Extra notes:
-Here is the collectioins row 2, I will be adding the
+The collections row 2, I will be adding the
 same effects here as row 1 to create a unified
 home page with the same styling of elements.
 */
+
+
+
+
 
 
 
