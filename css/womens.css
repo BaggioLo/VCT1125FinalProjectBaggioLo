@@ -187,6 +187,138 @@ Banner section for women's page
 }
 
 /* 
+Extra notes: Used embedded iframe tags to put in youtube video.
+*/
+.video-section {
+  width: 100%;
+  height: 70vh;
+}
+
+.video-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Extra notes:
+This page is another features shoe collection
+set up, there are going to be 2 rows of shoes to display product
+and it has the info underneath each shoe.
+I thought it would be cool to give some interactivity
+with a hover effect over them, so the shoes scale up
+and a box shadow appears as well. They are also positioned next to each other
+*/
+.features {
+  width: 100%;
+  height: 90vh;
+  margin-top: 15%;
+}
+
+.features .features-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 2.5% 6%;
+  font-size: 36px;
+  opacity: 0.5;
+}
+
+.features .features-title .title-edit {
+  padding-right: 6%;
+}
+
+.features-collection {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.features-collection .features-card {
+  width: 21.5%;
+}
+
+.features-collection .features-card .card1 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card2 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card3 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card4 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card5 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .card6 {
+  height: 60%;
+  width: 100%;
+  background-image: url(../img/womens6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-collection .features-card .features-card-image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 40px -10px #f75c03;
+          box-shadow: 0 0 40px -10px #f75c03;
+}
+
+.features-collection .features-card .features-card-info {
+  padding-top: 10%;
+}
+
+.features-collection .features-card .features-card-info h3 {
+  color: var(--orange);
+  font-size: 28px;
+}
+
+.features-collection .features-card .features-card-info p {
+  font-size: 20px;
+}
+
+/* 
 Not much to talk about for the footer,
 used css flexbox to space out the 4 nav links between each other
 I originally had the footer at 90vh but that was pretty excessive
