@@ -326,7 +326,11 @@ to go along with the rest of the elements on the page,
 the button is switched up a little bit to hover green from an 
 orange subscription button
  */
-.email-heading {
+.email-email {
+  margin-bottom: 15%;
+}
+
+.email-email .email-heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,7 +340,7 @@ orange subscription button
   font-size: 36px;
 }
 
-.email {
+.email-email .email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +353,7 @@ orange subscription button
   height: 30vh;
 }
 
-.email .email-box {
+.email-email .email .email-box {
   width: 50vw;
   padding: 10px;
   border-radius: 5px;
@@ -358,7 +362,7 @@ orange subscription button
           box-shadow: 5px 5px 40px -10px #f75c03;
 }
 
-.email .email-box input {
+.email-email .email .email-box input {
   font-size: 18px;
   color: #000;
   padding: 15px 10px;
@@ -367,7 +371,7 @@ orange subscription button
   background: #ececec;
 }
 
-.email .email-box button {
+.email-email .email .email-box button {
   color: #fff;
   padding: 15px 60px;
   font-size: 20px;
@@ -379,7 +383,7 @@ orange subscription button
   margin-left: 45%;
 }
 
-.email .email-box button:hover {
+.email-email .email .email-box button:hover {
   background: var(--green);
 }
 
@@ -394,8 +398,8 @@ the collections page for mens and womens shoes*/
           animation-name: emaildrop;
   -webkit-animation-duration: 8s;
           animation-duration: 8s;
-  -webkit-animation-iteration-count: 8;
-          animation-iteration-count: 8;
+  -webkit-animation-iteration-count: 16;
+          animation-iteration-count: 16;
   animation-direction: alternate-reverse;
 }
 
@@ -445,5 +449,44 @@ the collections page for mens and womens shoes*/
   100% {
     top: 0px;
   }
+}
+
+footer {
+  height: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10% 10% 10%;
+  background-color: black;
+}
+
+footer .footer-link {
+  list-style: none;
+  margin: 15px;
+}
+
+footer .footer-link li {
+  padding: 30px 20px;
+}
+
+footer .footer-link a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+footer .footer-link a:hover {
+  color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 /*# sourceMappingURL=index.css.map */
