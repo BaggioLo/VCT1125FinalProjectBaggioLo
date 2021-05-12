@@ -393,4 +393,51 @@ and a shop now button after a description
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
+
+/* 
+Not much to talk about for the footer,
+used css flexbox to space out the 4 nav links between each other
+I originally had the footer at 90vh but that was pretty excessive
+the links are still hovering with the same green hover effect
+and the background is black to go along with the header to keep
+the page unified
+*/
+footer {
+  height: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10% 10% 10%;
+  background-color: black;
+}
+
+footer .footer-link {
+  list-style: none;
+  margin: 15px;
+}
+
+footer .footer-link li {
+  padding: 30px 20px;
+}
+
+footer .footer-link a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+footer .footer-link a:hover {
+  color: var(--green);
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
 /*# sourceMappingURL=mens.css.map */
