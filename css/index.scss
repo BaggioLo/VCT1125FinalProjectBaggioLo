@@ -157,7 +157,49 @@ header{
     }
 }
 
-//***** Features Collection #1 *****//
+//***** Features Collection  *****//
+
+.features-collection{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    .features-card{
+        width: 21.5%;
+        height: 40%;
+        .features-card-info{
+            padding-top: 130%;
+        }
+    }
+    .features-card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+    }
+
+    .card1{
+        background-image: url(../img/shoe1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card2{
+        background-image: url(../img/shoe2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card3{
+        background-image: url(../img/shoe3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card4{
+        background-image: url(../img/shoe4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
 
 
 
@@ -166,8 +208,6 @@ header{
 
 
 
-
-//***** Features Collection #2 *****//
 
 
 
