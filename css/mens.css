@@ -317,6 +317,10 @@ seem suspensful almost like the "new shoe drop"
           animation-duration: 8s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
 }
 
 @-webkit-keyframes shoedrop {
@@ -324,7 +328,7 @@ seem suspensful almost like the "new shoe drop"
     top: 0px;
   }
   to {
-    top: 50px;
+    top: 75px;
   }
 }
 
@@ -333,7 +337,11 @@ seem suspensful almost like the "new shoe drop"
     top: 0px;
   }
   to {
-    top: 50px;
+    top: 75px;
   }
 }
+
+/*
+This will be an item feature section
+*/
 /*# sourceMappingURL=mens.css.map */

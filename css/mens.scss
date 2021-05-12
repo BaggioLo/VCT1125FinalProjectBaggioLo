@@ -274,6 +274,8 @@ seem suspensful almost like the "new shoe drop"
     animation-name: shoedrop;
     animation-duration: 8s;
     animation-fill-mode: backwards;
+    animation-delay: 4s;
+    animation-iteration-count: 2;
 }
 
 @keyframes shoedrop{
@@ -281,9 +283,15 @@ seem suspensful almost like the "new shoe drop"
         top:0px;
     }
     to{
-        top: 50px; 
+        top: 75px; 
     }
 }
+
+//***** Item Feature *****//
+/*
+This will be an item feature section
+*/
+
 
 
 
