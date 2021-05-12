@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//****** STYLE GUIDE ******//
+
+//Color palette that I will be using for my website, not all colors will be used
+
+:root{
+    --green: #04a777;
+    --darkpurple: #291720;
+    --byzantium: #820263;
+    --rose: #d90368;
+    --orange: #f75c03;
+}
+
+//////Global font styles//////
+
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Roboto-regular.ttf);
+}
+
+@font-face{
+    font-family: 'BebasNeue-Regular', sans-serif;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+// font for the headers
+
+h1{
+    font-family: 'BebasNeue-Regular', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    font-family: 'BebasNeue-Regular', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h3{
+    font-family: 'BebasNeue-Regular', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+// font for body text
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+//***** Nav Bar *****//
+/* This is the styling for the nav bar,
+I have the logo on the far left called "UpworkShoes"
+the menu is in the center and there is a shop button to the right
+the menu items have a green hover to them */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    .logo{
+        color: white;
+    }
+    .nav-link{
+        list-style: none;
+        display: inline-block;
+        margin: 15px;
+        li{
+            padding: 30px 20px;
+        }
+        a{
+            transition: all 0.3s ease 0s;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        a:hover{
+            color: var(--green);
+            transition: all 0.8s ease 0s;
+        }
+    }
+    button{
+        padding: 9px 25px;
+        background-color: rgba(255, 255, 255, 0);
+        border: solid 5px var(--green);
+        border-radius: 50px;
+        color: white;
+        text-transform: uppercase;
+    }
+    button:hover{
+        color: var(--green);
+        background-color: var(--green);
+        transition: all 0.8s ease 0s;
+    }
+}
+
+//***** Banner Section *****//
+/*
+Banner section for women's page
+*/
+.banner{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    .item-feature-image{
+        width: 40%;
+        height: 60%;
+        background-image: url(../img/mens5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 15%;
+    }
+    .item-feature-info{
+        margin-left: 5%;
+        margin-top: 15%;
+        h3{
+            font-size: 36px;
+        }
+        p{
+            font-size: 24px;
+        }
+        button{
+            padding: 9px 25px;
+            background-color: rgba(255, 255, 255, 0);
+            border: solid 5px var(--green);
+            border-radius: 50px;
+            color: var(--green);
+            text-transform: uppercase;
+            margin-top: 5%;
+        }
+        button:hover{
+            color: var(--green);
+            background-color: var(--green);
+            transition: all 0.8s ease 0s;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+//***** Footer Styling *****//
+/* 
+Not much to talk about for the footer,
+used css flexbox to space out the 4 nav links between each other
+I originally had the footer at 90vh but that was pretty excessive
+the links are still hovering with the same green hover effect
+and the background is black to go along with the header to keep
+the page unified
+*/
+
+footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 10% 10%;
+    background-color: black;
+    
+    .footer-link{
+        list-style: none;
+        margin: 15px;
+        li{
+            padding: 30px 20px;
+        }
+        a{
+            transition: all 0.3s ease 0s;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        a:hover{
+            color: var(--green);
+            transition: all 0.8s ease 0s;
+        }
+    }
+}
+
